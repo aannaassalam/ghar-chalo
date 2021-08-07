@@ -1,0 +1,22 @@
+.sidebar {
+  width: 60px;
+  height: 100%;
+  border-right: 2px solid #eee;
+}
+
+.sidebar .tabs {
+  width: 100%;
+}
+
+.sidebar .tabs .MuiTab-root {
+  min-width: 0 !important;
+}
+
+.sidebar .tabs i {
+  font-size: 12px;
+}
+
+.sidebar .tabs .MuiTab-textColorInherit.Mui-selected {
+  border-top: 2px solid #eee;
+  border-bottom: 2px solid #eee;
+}

@@ -1,0 +1,85 @@
+.leaderboard {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.leaderboard .heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.leaderboard .heading h4 {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.App
+  .main
+  .leaderboard-container
+  .leaderboard
+  .heading
+  .MuiOutlinedInput-inputMarginDense {
+  padding-top: 5.5px;
+  padding-bottom: 5.5px;
+  font-size: 14px;
+}
+
+.leaderboard .table .MuiTableCell-root {
+  border-bottom: none !important;
+}
+
+.leaderboard .table .head {
+  background-color: #fafafa;
+}
+
+.leaderboard .table .head .MuiTableCell-root {
+  padding: 5px 16px;
+  border-radius: 5px;
+}
+
+.App
+  .main
+  .leaderboard-container
+  .leaderboard
+  .table
+  .head
+  .MuiTableCell-root:not(:nth-child(2)) {
+  text-align: center;
+}
+
+.leaderboard .table .head:after {
+  line-height: 0.8em;
+  content: ".";
+  background-color: #fff;
+  display: block;
+}
+
+.leaderboard .table .body .MuiTableCell-root {
+  padding: 10px 16px;
+  border-radius: 5px;
+}
+
+.App
+  .main
+  .leaderboard-container
+  .leaderboard
+  .table
+  .body
+  .MuiTableRow-root:last-child {
+  border-top: 1px solid #ccc;
+}
+
+.App
+  .main
+  .leaderboard-container
+  .leaderboard
+  .table
+  .body
+  .MuiTableCell-root
+  i {
+  font-size: 14px;
+  margin-left: 7px;
+}

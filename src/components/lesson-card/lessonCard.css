@@ -1,0 +1,44 @@
+.lesson-card {
+  display: flex;
+  align-items: center;
+  background-color: #d7f1fe;
+  margin-bottom: 5px;
+  padding: 10px 20px;
+  border-radius: 3px;
+}
+
+.lesson-card .date-time h4 {
+  font-size: 16px;
+  margin-bottom: 3px;
+}
+
+.lesson-card .date-time h5 {
+  all: unset;
+  font-size: 14px !important;
+  color: #7a8c9e !important;
+  margin-bottom: 5px !important;
+}
+
+.lesson-card .data {
+  margin-left: 20px;
+}
+
+.lesson-card .data h5 {
+  all: unset;
+  font-size: 14px !important;
+  margin-bottom: 5px !important;
+}
+
+.lesson-card .data p {
+  font-size: 12px;
+  color: #555;
+}
+
+.lesson-card img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 50%;
+  margin-left: 60px;
+}
